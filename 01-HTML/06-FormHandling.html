@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Form Handling</h1>
+    <!-- Login, Subscribe, Feedback, Registration, Booking, Post, Comment, Search -->
+    <img src="" id="p_pic" alt="">
+    <form action="login.html" method="POST">
+        <table border="2" cellpadding=10>
+            <tr>
+                <td>
+                    <label for="username">Enter Name</label>
+                </td>
+                <td>
+                    <input type="text" id="username" name="u_name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="userpwd">Enter Password</label>
+                </td>
+                <td>
+                    <input type="password" name="u_pwd" id="userpwd">
+                </td>
+            </tr>
+            <tr>
+                <td>Upload Image</td>
+                <td>
+                    <input type="file" id="file">
+                </td>
+            </tr>
+            <tr>
+                <td>Select Country</td>
+                <td>
+                    <select name="u_city">
+                        <option>Choose Country</option>
+                        <option value="aus">Australia</option>
+                        <option value="ind">India</option>
+                        <option value="newz">New zeland</option>
+                        <option value="ch">China</option>
+                        <option value="it">Italy</option>
+                        <option value="fr">France</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="m" id="m"> <label for="m">Male</label>
+                    <input type="radio" name="gender" value="f" id="f"> <label for="f">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Course</td>
+                <td>
+                    <input type="checkbox"> Btech <br>
+                    <input type="checkbox"> Mtech <br>
+                    <input type="checkbox"> BCA <br>
+                    <input type="checkbox"> MCA <br>
+                    <input type="checkbox"> phd <br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
