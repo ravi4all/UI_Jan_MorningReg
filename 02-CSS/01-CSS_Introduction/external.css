@@ -1,0 +1,7 @@
+/* h1/div/img/a/       - Selectors
+color/font/width    - Property
+blue/20px/50%       - value */
+
+h1 {
+    color: blue;
+}

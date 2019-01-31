@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            height: 200px;
+            background-color: lightcoral;
+        }
+        
+        #div_1 {
+            background-color: aqua;
+        }
+        
+        .class_3 {
+            background-color: lightgreen;
+        }
+        
+        .class_1 {
+            background-color: lightblue;
+        }
+        
+        #div_2 {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Id Vs Class</h1>
+
+    <!-- Id - identity - unique - (#)
+    - used to uniquly identify any element like header/footer/banner
+    - an id cannot be repeated on a single page
+    - an element cannot have multiple ids
+    Class   - grouping - (.)
+    - used to group elements
+    - a class can be repeated any number of time
+    - an element can have any number of classes -->
+
+    <div id="div_1" class="class_1"></div>
+    <hr>
+    <div id="div_2" class="class_1 class_2"></div>
+    <hr>
+    <div id="div_3" class="class_2 class_1 class_3"></div>
+    <hr>
+    <div id="div_4" class="class_3 class_2"></div>
+
+</body>
+
+</html>
