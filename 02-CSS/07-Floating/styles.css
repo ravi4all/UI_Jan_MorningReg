@@ -1,0 +1,32 @@
+/* Pseudo Elements - after and before */
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+div {
+    /* height: 200px; */
+    /* padding: 12px; */
+}
+
+.row {
+    /* height: 280px; */
+}
+
+.div_1 {
+    border: 10px solid red;
+    float: left;
+    width: 30%;
+}
+
+.div_2 {
+    border: 10px solid black;
+    float: right;
+    width: 30%;
+}
+
+.div_3 {
+    background-color: lightcoral;
+}

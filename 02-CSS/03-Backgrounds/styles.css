@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://www.syfy.com/sites/syfy/files/wire/legacy/the_avengers-wide_1.jpg");
+    background-size: 100% 100%;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+div {
+    height: 600px;
+    margin-bottom: 500px;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+}
+
+#div_1 {
+    background-image: url("http://images5.fanpop.com/image/photos/31700000/Iron-Man-iron-man-3-31780175-1920-1200.jpg");
+}
+
+#div_2 {
+    background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/19249.jpg");
+}
+
+#div_3 {
+    background-image: url("https://wallpapertag.com/wallpaper/middle/f/f/9/111923-top-thor-wallpaper-1920x1080.jpg");
+}
+
+#div_4 {
+    background-image: url("http://images6.fanpop.com/image/photos/40000000/Captain-America-Civil-War-Wallpaper-movie-trailers-40091502-3840-2160.jpg");
+}
+
+#div_5 {
+    background-image: url("https://blog.us.playstation.com/wp-content/uploads/2018/04/spidey-lead-755x425.png");
+}
+
+#div_6 {
+    background-image: url("https://wallpapersite.com/images/pages/pic_w/1832.jpg");
+}
