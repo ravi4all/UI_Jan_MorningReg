@@ -1,0 +1,42 @@
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    position: relative;
+    background-color: lightblue;
+    /* overflow: hidden; */
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+li:hover a {
+    background-color: lightsalmon;
+}
+
+.dropdown {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    display: none;
+    background-color: lightgray;
+}
+
+.dropdown li {
+    width: 100%;
+    display: block;
+}
+
+ul li:hover .dropdown {
+    display: block;
+}
