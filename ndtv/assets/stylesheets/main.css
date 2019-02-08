@@ -1,0 +1,180 @@
+/* Global Settings */
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+
+/* Helper Classes */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Generic Settings */
+
+.sprite {
+    background-image: url("https://drop.ndtv.com/homepage/images/svg_sprite.svg");
+}
+
+#header {
+    padding: 5px 0px;
+    background-color: #3E3E3E;
+    text-align: center;
+}
+
+#header ul li {
+    display: inline-block;
+}
+
+#header .logo {
+    width: 9%;
+}
+
+#header .logo a {
+    display: block;
+    height: 25px;
+    width: 120px;
+    margin-top: 5px;
+}
+
+#header .user-icons .sprite {
+    height: 29px;
+    width: 25px;
+    display: inline-block;
+    background-size: 200px 60px;
+}
+
+.twitter {
+    background-position: 0px -30px;
+}
+
+.fb {
+    background-position: -40px -30px;
+}
+
+.stories {
+    background-position: -73px -30px;
+}
+
+.bell {
+    background-position: -175px -30px;
+}
+
+.search {
+    background-position: -110px -30px;
+}
+
+#header .header_top {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#header .header_top ul li {
+    margin: 0px 10px;
+}
+
+#header .header_top a {
+    text-transform: uppercase;
+    font-size: 8px;
+    color: #c6c6c6;
+    display: inline-block;
+    padding: 5px 4px;
+    border-radius: 3px;
+}
+
+#header .header_top a:hover {
+    background-color: #000;
+}
+
+#header .user-icons {
+    width: 17%;
+}
+
+#header .user-icons ul li {
+    margin: 0px 5px;
+}
+
+#main-navigation {
+    width: 73%;
+    margin-top: 5px;
+}
+
+#main-navigation ul li {
+    margin: 0px 12px;
+}
+
+#main-navigation ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#banner {}
+
+#content {}
+
+#main {}
+
+#sidebar {}
+
+#footer {}
+
+
+/* Specific Settings */
+
+
+/* Index Page*/
+
+
+/* About Page */
