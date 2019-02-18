@@ -1,0 +1,28 @@
+#sun {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    background-image: url("https://thumbs.gfycat.com/WatchfulGiganticCassowary-small.gif");
+    background-size: 100% 100%;
+}
+
+#earth {
+    position: absolute;
+    height: 100px;
+    width: 640px;
+    background-image: url("../../../images/00-22.gif");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    left: 26%;
+    top: 30%;
+    animation: earth 5s infinite linear;
+}
+
+@keyframes earth {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

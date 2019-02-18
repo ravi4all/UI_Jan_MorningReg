@@ -1,0 +1,55 @@
+img {
+    position: absolute;
+    width: 6%;
+    left: 47%;
+    bottom: 0px;
+    animation: car 10s infinite linear;
+}
+
+@keyframes car {
+    0% {
+        left: 47%;
+        bottom: 0%;
+        transform: rotate(-45deg);
+    }
+    20% {
+        left: 0%;
+        bottom: 45%;
+        transform: rotate(-45deg);
+    }
+    25% {
+        left: 0%;
+        bottom: 45%;
+        transform: rotate(45deg);
+    }
+    40% {
+        left: 47%;
+        bottom: 85%;
+        transform: rotate(45deg);
+    }
+    45% {
+        left: 47%;
+        bottom: 85%;
+        transform: rotate(135deg);
+    }
+    60% {
+        left: 85%;
+        bottom: 45%;
+        transform: rotate(135deg);
+    }
+    65% {
+        left: 85%;
+        bottom: 45%;
+        transform: rotate(235deg);
+    }
+    80% {
+        left: 47%;
+        bottom: 0%;
+        transform: rotate(235deg);
+    }
+    100% {
+        left: 47%;
+        bottom: 0%;
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,49 @@
+#container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    animation: cube 4s infinite linear
+}
+
+#container div {
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 80px;
+    position: absolute;
+}
+
+#back {
+    transform: translateZ(-300px) rotateY(180deg);
+}
+
+#top {
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+
+#bottom {
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+
+#left {
+    transform: rotateY(90deg);
+    transform-origin: left;
+}
+
+#right {
+    transform: rotateY(-90deg);
+    transform-origin: right;
+}
+
+@keyframes cube {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotate(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg) rotate(360deg);
+    }
+}
