@@ -14,6 +14,7 @@
 
     <script src="assets/javascripts/songs.js"></script>
     <script src="assets/javascripts/main.js"></script>
+    <script src="assets/javascripts/model.js"></script>
 </head>
 
 <body>
@@ -58,9 +59,16 @@
 
         <div class="container">
             <section class="musicPlayer">
-                <audio controls class="w-100" id="audio">
-                    <source src="">
-                </audio>
+                <div class="row">
+                    <div class="col-md-1">
+                        <img id="song_thumb" src="../../images/Football.png" alt="">
+                    </div>
+                    <div class="col-md-11">
+                        <audio controls class="w-100" id="audio">
+                            <source src="">
+                        </audio>
+                    </div>
+                </div>
             </section>
 
             <div class="row">
@@ -72,6 +80,7 @@
                 </div>
                 <div class="col-md-4">
                     <h2>Playlist</h2>
+                    <ul id="playList"></ul>
                 </div>
             </div>
         </div>
