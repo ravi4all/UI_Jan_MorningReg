@@ -23,6 +23,24 @@ function initEvents() {
         img.addEventListener("click", playSong);
         btn.addEventListener("click", addToPlayList);
     });
+
+    document.querySelector("#save").addEventListener("click", savePlaylist);
+    loadPlaylist();
+}
+
+function savePlaylist() {
+    if (window.localStorage) {
+        var json = JSON.stringify(object.playList);
+        // console.log(json);
+        localStorage.setItem('playList', json);
+    }
+}
+
+function loadPlaylist() {
+    if (window.localStorage) {
+        object.playList = JSON.parse(localStorage.getItem('playList'));
+        printPlayList();
+    }
 }
 
 function playSong() {
